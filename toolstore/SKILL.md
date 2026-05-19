@@ -33,10 +33,12 @@ The `svelte` skill is a sub-index for all Svelte-specific patterns. Load it firs
 
 | Skill | Load when you are... |
 |---|---|
+| `testing` | Writing or reviewing any tests |
 | `pnpm-workspaces` | Adding dependencies or working across packages |
 | `commit-message-formatting` | Writing or reviewing a commit message |
 | `biome` | Running or configuring the linter/formatter |
 | `pre-push-checklist` | About to push a branch |
 | `pr-handling` | Opening, updating, or reviewing a pull request |
 | `forgejo` | Working with a Forgejo remote specifically |
+| `multica` | Creating issues, posting comments, or reporting outcomes |
 | `adr-process` | Making a meaningful architectural decision |
