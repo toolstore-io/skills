@@ -1,6 +1,6 @@
 ---
 name: cva-variants
-description: class-variance-authority (cva) pattern for component variants. Use when defining or modifying the visual variants of a Svelte component.
+description: class-variance-authority (cva) pattern for component variants. Use when the project uses cva for variant definitions. Skip if the project uses a different variant or styling strategy.
 ---
 
 # CVA Variants

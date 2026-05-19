@@ -1,6 +1,6 @@
 ---
 name: biome
-description: Biome linter and formatter conventions. Use when running or configuring the linter/formatter.
+description: Biome linter and formatter conventions. Use when the project uses Biome. Skip if the project uses ESLint, Prettier, or another formatter.
 ---
 
 # Biome

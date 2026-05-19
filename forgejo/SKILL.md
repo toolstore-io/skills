@@ -1,6 +1,6 @@
 ---
 name: forgejo
-description: Forgejo-specific CLI conventions using the fj CLI. Use alongside pr-handling when the remote is a Forgejo instance.
+description: Forgejo-specific CLI conventions using the fj CLI. Use alongside pr-handling when the remote is a Forgejo instance. Skip if the project uses GitHub or another Git host.
 ---
 
 # Forgejo

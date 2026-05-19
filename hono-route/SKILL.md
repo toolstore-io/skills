@@ -1,6 +1,6 @@
 ---
 name: hono-route
-description: Hono route handler conventions. Use when adding or modifying API route handlers in the api package.
+description: Hono route handler conventions. Use when adding or modifying route handlers built with Hono. Skip if the project uses a different HTTP framework.
 ---
 
 # Hono Route Handlers

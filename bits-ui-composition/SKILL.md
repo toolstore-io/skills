@@ -1,6 +1,6 @@
 ---
 name: bits-ui-composition
-description: Wrapping Bits UI primitives for interactive components. Use when building dialogs, menus, toggles, popovers, tabs, or checkboxes.
+description: Wrapping Bits UI primitives for interactive components. Use when the project uses Bits UI. Skip if the project uses a different component library or plain HTML elements.
 ---
 
 # Bits UI Composition

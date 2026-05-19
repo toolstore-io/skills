@@ -15,14 +15,11 @@ Load the skill that matches your task. Each skill covers one specific pattern or
 
 ## Backend / Architecture
 
+The `backend` skill is a sub-index for all backend patterns. Load it first when doing backend work, then load the specific skill it points to.
+
 | Skill | Load when you are... |
 |---|---|
-| `gateway-pattern` | Wrapping an external API, SDK, or third-party service |
-| `hono-route` | Adding or modifying a Hono route handler |
-| `repository-pattern` | Adding or modifying a database repository module |
-| `dependency-injection` | Creating a new service or wiring up dependencies |
-| `neverthrow` | Writing fallible functions in service or repository code |
-| `service-layer` | Building a service that orchestrates repositories and gateways |
+| `backend` | Starting any backend work (sub-index) |
 
 ## Frontend
 
