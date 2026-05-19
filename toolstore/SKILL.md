@@ -12,6 +12,7 @@ Load the skill that matches your task. Each skill covers one specific pattern or
 | Skill | Load when you are... |
 |---|---|
 | `code-style` | Writing any code and need style/readability guidance |
+| `writing-style` | Writing PR descriptions, issue comments, or documentation |
 
 ## Backend / Architecture
 

@@ -15,3 +15,4 @@ Load the specific skill for your task. Apply only the ones relevant to the stack
 | `dependency-injection` | Creating a new service or wiring up dependencies |
 | `neverthrow` | Writing fallible functions in service or repository code |
 | `service-layer` | Building a service that orchestrates repositories and gateways |
+| `pino-logging` | Adding or reviewing logging in the API or service layer |
