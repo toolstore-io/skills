@@ -94,11 +94,15 @@ await userEvent.click(submitButton);
 await waitFor(() => expect(screen.getByText('Saved')).toBeInTheDocument());
 ```
 
+## Visual regression
+
+Visual regression testing for UI components is covered by the `storybook` skill. For unit and integration tests, the conventions here apply.
+
 ## Test file naming
 
 | File type | Convention |
 |---|---|
 | Unit / integration test | `name.test.ts` |
 | Svelte component test | `Name.test.ts` |
-| Visual regression test | `Name.visual.ts` |
+| Visual regression test | `Name.visual.ts` — see `storybook` skill |
 | Mock factory | `name.mock.ts` |

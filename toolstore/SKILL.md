@@ -23,11 +23,11 @@ The `backend` skill is a sub-index for all backend patterns. Load it first when 
 
 ## Frontend
 
-The `svelte` skill is a sub-index for all Svelte-specific patterns. Load it first when doing frontend work, then load the specific skill it points to.
+The `frontend` skill is a sub-index for all frontend work. Load it first, then follow its routing to shared or framework-specific skills.
 
 | Skill | Load when you are... |
 |---|---|
-| `svelte` | Starting any Svelte component work (sub-index) |
+| `frontend` | Starting any frontend work (sub-index) |
 
 ## Tooling / Workflow
 
