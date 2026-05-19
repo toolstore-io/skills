@@ -10,4 +10,4 @@ Load the specific skill for your task. Also load the shared skills in the `front
 | Skill | Load when you are... |
 |---|---|
 | `react-component` | Creating a new component or organizing an existing one |
-| `shadcn-composition` | Building interactive primitives using shadcn/ui |
+| `radix-composition` | Building interactive primitives using Radix UI |
