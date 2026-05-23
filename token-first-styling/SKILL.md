@@ -1,9 +1,15 @@
 ---
 name: token-first-styling
-description: Design token styling conventions. Use when applying styles to any component or reviewing whether existing styles are token-compliant.
+description: Use when applying styles to any UI component or reviewing whether existing styles are token-compliant — picking class names, suspicious hex/rgb/hsl values, arbitrary Tailwind values like `bg-[#...]`, or anywhere a primitive sets its own margin. Covers the token-class-only rule, opacity modifiers, and the no-self-layout-in-primitives rule.
 ---
 
 # Token-First Styling
+
+## When this fires
+
+You are typing or reviewing a `class=`/`className=` value on a UI element. If you find yourself reaching for `text-[#...]`, `bg-[rgba(...)]`, an arbitrary Tailwind value in square brackets, or a margin/padding class on a primitive's outermost element, stop and use a token class or push the layout to the parent.
+
+## Core rule
 
 All visual properties are expressed through design token classes. Raw values never appear in component markup.
 

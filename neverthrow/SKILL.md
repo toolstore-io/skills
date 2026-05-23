@@ -1,9 +1,15 @@
 ---
 name: neverthrow
-description: neverthrow Result<T, E> conventions for error handling. Use when writing any fallible function in service or repository code.
+description: Use when writing or reviewing any function that can fail — DB calls, HTTP requests, parsing untrusted input, anywhere you might `throw` or return `{ data, error }`. Covers `Result<T, E>` and `ResultAsync<T, E>` with string-literal error unions, error propagation, the HTTP-layer boundary, and exhaustive switch handling.
 ---
 
 # neverthrow
+
+## When this fires
+
+You are about to write a function that can fail — anything that hits the database, calls an external API, parses untrusted input, or branches on a result that might not exist. If you are typing `throw new Error(`, returning `{ data, error }`, or wrapping something in `try`/`catch`, stop and use the pattern below.
+
+## Core rule
 
 All fallible service and repository functions return `Result<T, E>` or `ResultAsync<T, E>` from neverthrow. Never throw; never use ad-hoc `{ data, error }` tuples.
 

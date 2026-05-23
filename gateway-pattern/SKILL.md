@@ -1,9 +1,15 @@
 ---
 name: gateway-pattern
-description: Abstracting external dependencies (HTTP APIs, SDKs, third-party services) behind a typed interface. Use when adding or modifying code that calls an external service.
+description: Use when calling an external HTTP API, third-party SDK, or any service outside the project — wrapping `fetch`, an SDK client, or anything that returns HTTP status codes. Covers the gateway interface + concrete implementation + mock file structure, Result-returning methods, and the rule that nothing outside the gateway sees HTTP status codes or SDK exceptions.
 ---
 
 # Gateway Pattern
+
+## When this fires
+
+You are about to call something the project does not own — `fetch`, an SDK client, a third-party API. If you are about to write `fetch(` or `new SomeSdkClient(` inside a service, route handler, or repository, stop. Wrap the external dependency in a gateway first and have the caller depend on the interface.
+
+## Core idea
 
 A gateway is a typed abstraction over a single external dependency. Services depend on the gateway interface, not the concrete implementation. This makes the external boundary explicit and swappable for mocks in tests.
 

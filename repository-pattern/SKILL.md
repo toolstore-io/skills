@@ -1,11 +1,17 @@
 ---
 name: repository-pattern
-description: Database repository module conventions using pg and neverthrow. Use when adding or modifying a database module in packages/shared/src/db/.
+description: Use when writing or modifying code that reads from or writes to the database — SQL queries, INSERT/UPDATE/SELECT, table access, or any function that talks to Postgres via the `sql` template tag. Triggers on "query", "fetch from DB", "insert", `sql\``, "repository". Covers the `create*Repository` factory shape, `ResultAsync<T, 'db_error'>`, row-type interfaces, and per-query logging.
 ---
 
 # Repository Pattern
 
-Repositories live in `packages/shared/src/db/`. Each file encapsulates all SQL for one domain entity.
+## When this fires
+
+You are about to write code that reads from or writes to the database — anything that uses the `sql` template tag, or anywhere you find yourself wanting to inline a query inside a route handler or a service. SQL belongs in a repository module; everything else calls the repository through its returned object.
+
+## Where they live
+
+Repositories typically live under the project's shared database module (e.g. `packages/shared/src/db/` in a pnpm monorepo). Each file encapsulates all SQL for one domain entity.
 
 ## Factory signature
 
