@@ -1,13 +1,15 @@
 ---
 name: pr-handling
-description: Pull request conventions using multica. Use when opening, updating, or reviewing a pull request. For Forgejo-specific workflows, also load the forgejo skill.
+description: Use when opening, updating, or reviewing a pull request — drafting the PR body, posting review comments, picking a branch name, or deciding what goes in the description vs. the commit messages. Triggers on "open a PR", "PR description", "review comment", "branch name". Pair with the forgejo skill for Forgejo-specific CLI.
 ---
 
 # PR Handling
 
+These rules apply regardless of git host. For the actual CLI calls (`fj` vs `gh`), pair with the `forgejo` skill or your host's equivalent.
+
 ## Opening a PR
 
-Push your branch, then create the PR with multica.
+Push your branch, then create the PR through the host CLI.
 
 ```sh
 git push origin HEAD
@@ -28,8 +30,11 @@ cat > /tmp/pr-body.md << 'EOF'
 - [ ] Unit tests pass
 EOF
 
-multica pr create --title "feat(api): add email invite endpoint" --body-file /tmp/pr-body.md
+# Forgejo
+fj pr create --title "feat(api): add email invite endpoint" --body-file /tmp/pr-body.md
 ```
+
+The Multica issue link belongs in the PR body, not the title. See the `multica` skill for the canonical delivery comment that closes the loop on a Multica issue.
 
 ## Branch naming
 
@@ -42,7 +47,7 @@ chore/short-description
 
 ## Review comments via CLI
 
-When posting review comments, use stdin or a body file. Never pass code snippets, multi-line text, or special characters as a double-quoted shell argument.
+When posting review comments, use stdin or a body file. Never pass code snippets, multi-line text, or special characters as a double-quoted shell argument. For Forgejo specifically, threaded review replies need the REST API directly — see the `forgejo` skill.
 
 ## Never push directly to main
 
