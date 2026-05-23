@@ -1,6 +1,6 @@
 ---
 name: testing
-description: Testing conventions and taste. Use when writing or reviewing tests. Covers colocation, what to test, what not to mock, and assertion style for both backend and frontend code.
+description: Use when writing, reviewing, debugging, or restructuring any test — unit, integration, or component. Triggers on `.test.ts`, `describe`, `it`, `expect`, `vi.mock`, "write a test", "fix the failing test". Covers colocation, test-behavior-not-implementation, accessible queries, the no-database-mocks rule for backend, minimal mocking, and async assertions with `waitFor`.
 ---
 
 # Testing

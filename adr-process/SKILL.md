@@ -1,6 +1,6 @@
 ---
 name: adr-process
-description: When and how to write an Architecture Decision Record (ADR). Use when making a meaningful architectural choice during implementation.
+description: Use when making an architectural decision during implementation — adding a runtime dependency, establishing a new code pattern, restructuring packages, or choosing between two meaningful approaches. Covers ADR format, when to write one, and the immutability rule.
 ---
 
 # ADR Process

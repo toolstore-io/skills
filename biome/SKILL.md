@@ -1,6 +1,6 @@
 ---
 name: biome
-description: Biome linter and formatter conventions. Use when the project uses Biome. Skip if the project uses ESLint, Prettier, or another formatter.
+description: Use when running, configuring, or suppressing the linter/formatter in a project that uses Biome. Triggers on "lint", "format", `biome check`, lint errors, or deciding whether to add a `biome-ignore` comment. Skip for ESLint or Prettier projects.
 ---
 
 # Biome

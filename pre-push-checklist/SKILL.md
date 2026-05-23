@@ -1,6 +1,6 @@
 ---
 name: pre-push-checklist
-description: Steps to verify locally before pushing a branch. Use before running git push.
+description: Use before running `git push` — verify typecheck, tests, lint, commit hygiene, and rebase-on-main. Triggers on "push", "ready to push", "before I push", `git push`. Covers each step and the never-bypass-the-pre-commit-hook rule.
 ---
 
 # Pre-Push Checklist

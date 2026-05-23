@@ -1,6 +1,6 @@
 ---
 name: commit-message-formatting
-description: Conventional commit message format. Use when writing or reviewing commit messages.
+description: Use whenever you are about to run `git commit`, or when reviewing or rewriting an existing commit message. Covers the conventional `type(scope): description` format, allowed types, imperative mood, the one-line-only rule, and the no-co-author-trailer policy.
 ---
 
 # Commit Message Formatting

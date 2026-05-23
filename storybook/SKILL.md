@@ -1,6 +1,6 @@
 ---
 name: storybook
-description: Storybook stories and visual regression testing conventions. Use when adding or reviewing any UI component to ensure all variants are documented and style regressions are caught.
+description: Use when adding, modifying, or reviewing a UI primitive — Storybook story file layout, one-story-per-variant, visual regression test files (`*.visual.ts`), or whether a snapshot diff should be committed. Triggers on `.stories.tsx`/`.stories.svelte`, "story", "snapshot", "visual test".
 ---
 
 # Storybook

@@ -1,6 +1,6 @@
 ---
 name: radix-composition
-description: Using Radix UI primitives for interactive components in React. Use when building dialogs, menus, toggles, popovers, tabs, or other interactive UI. Skip if the project does not use Radix UI.
+description: Use when building interactive React UI in a project that uses Radix UI — dialogs, dropdowns, menus, popovers, tooltips, tabs, accordions, toggles, checkboxes, selects. Triggers on "modal", "menu", "popover", or anywhere keyboard/focus/ARIA behavior is needed. Covers the wrap-then-style composition pattern with token classes and cva.
 ---
 
 # Radix UI Composition

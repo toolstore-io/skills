@@ -1,6 +1,6 @@
 ---
 name: dependency-injection
-description: Factory-based dependency injection conventions. Use when creating a new service, wiring up dependencies in a route module, or composing services together.
+description: Use when creating a service, repository, gateway, or route factory; wiring concrete implementations together at the app entry point; or deciding whether a module should import a concrete factory vs. an interface type. Covers the factory-function pattern, the `type X = ReturnType<typeof createX>` alias, and the no-DI-container / no-globals rule.
 ---
 
 # Dependency Injection

@@ -1,6 +1,6 @@
 ---
 name: cva-variants
-description: class-variance-authority (cva) pattern for component variants. Use when the project uses cva for variant definitions. Skip if the project uses a different variant or styling strategy.
+description: Use when defining or modifying visual variants for a UI component — building a `*.variants.ts` file with class-variance-authority, picking base vs. variant classes, choosing default variants, or exporting the derived variant type. Skip for projects that do not use cva.
 ---
 
 # CVA Variants

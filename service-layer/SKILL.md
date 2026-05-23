@@ -1,6 +1,6 @@
 ---
 name: service-layer
-description: Service layer conventions. Services orchestrate gateways and repositories; they don't do HTTP or raw SQL. Use when building a new service or adding operations to an existing one.
+description: Use when writing business logic that orchestrates repositories and gateways — sequencing DB plus external calls, validating, branching, or transforming results between callers. Triggers on "service", "business logic", "accept invite", "register user", any `create*Service` factory. Covers the factory shape, inner-function pattern, and the no-HTTP / no-SQL rule for services.
 ---
 
 # Service Layer

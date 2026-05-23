@@ -1,6 +1,6 @@
 ---
 name: svelte-component
-description: Svelte 5 component structure, naming, and file organization. Use when creating a new UI component or migrating an existing flat-file component to the current conventions.
+description: Use when creating, organizing, or reviewing a Svelte 5 UI component — directory layout, runes-based props (`$props`), `Snippet` children, naming (PascalCase `.svelte` / kebab-case `.ts`), and the no-self-layout rule. Triggers on `.svelte`, "new component", "make a Badge", "extract to a component". Skip for React or other frameworks.
 ---
 
 # Svelte Component Structure

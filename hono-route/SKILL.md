@@ -1,6 +1,6 @@
 ---
 name: hono-route
-description: Hono route handler conventions. Use when adding or modifying route handlers built with Hono. Skip if the project uses a different HTTP framework.
+description: Use when adding, modifying, or reviewing an HTTP route handler in a Hono app — `app.get`/`app.post`, request validation with Zod, mapping service `Result` errors to HTTP status codes, route ordering, or auth helpers. Triggers on "endpoint", "route", "API handler", "wire up the API". Skip for Express, Fastify, or other frameworks.
 ---
 
 # Hono Route Handlers

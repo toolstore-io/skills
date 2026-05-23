@@ -1,6 +1,6 @@
 ---
 name: writing-style
-description: Prose style guidelines for agent-written text: PR descriptions, issue comments, and documentation. Use when writing any human-readable text as part of development work.
+description: Use when writing prose for humans — PR descriptions, issue comments, ADRs, READMEs, commit-message bodies. Triggers whenever the output is read-by-humans-not-machines. Covers be-direct, em-dash sparingly, no hedging language, short sentences over long complete ones.
 ---
 
 # Writing Style

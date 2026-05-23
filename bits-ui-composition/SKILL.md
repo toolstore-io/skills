@@ -1,6 +1,6 @@
 ---
 name: bits-ui-composition
-description: Wrapping Bits UI primitives for interactive components. Use when the project uses Bits UI. Skip if the project uses a different component library or plain HTML elements.
+description: Use when building interactive Svelte UI in a project that uses Bits UI — dialogs, dropdowns, menus, tooltips, popovers, tabs, toggles, switches, checkboxes, radios. Triggers on "modal", "menu", "popover", or anywhere keyboard/focus/ARIA behavior is needed. Covers the wrap-then-style pattern with snippets and token classes.
 ---
 
 # Bits UI Composition

@@ -1,6 +1,6 @@
 ---
 name: forgejo
-description: Forgejo-specific CLI conventions using the fj CLI. Use alongside pr-handling when the remote is a Forgejo instance. Skip if the project uses GitHub or another Git host.
+description: Use when interacting with a Forgejo remote — `fj` CLI commands, opening or commenting on PRs and issues, replying to review threads, SSH attribution for agent vs. human commits, or anything involving toolstore.dev. Triggers on "fj", "forgejo", "open a PR", "comment on the review". Skip for GitHub or GitLab remotes.
 ---
 
 # Forgejo

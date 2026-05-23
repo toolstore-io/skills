@@ -1,6 +1,6 @@
 ---
 name: multica
-description: Multica CLI conventions for issue management, comments, and delivery reporting. Use when creating issues, posting comments, or summarizing work outcomes in Multica. Skip if the project does not use Multica.
+description: Use when creating Multica issues, posting comments via `multica issue comment add`, attaching files, replying to a trigger comment, or reporting work delivery. Triggers on "multica", "create an issue", "post a comment on MUL-", "delivery comment", `--project`. Skip for projects not using Multica.
 ---
 
 # Multica

@@ -1,6 +1,6 @@
 ---
 name: react-component
-description: React component structure, naming, and file organization conventions. Use when creating or reorganizing React components. Skip if the project uses Svelte or another framework.
+description: Use when creating, organizing, or reviewing a React UI component — file layout, props typing, `className` handling with `cn()`, naming (kebab-case files / PascalCase function), and the no-self-layout rule. Triggers on `.tsx`, "new component", "make a Badge", "extract to a component". Skip for Svelte or other frameworks.
 ---
 
 # React Component Structure

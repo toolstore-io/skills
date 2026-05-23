@@ -1,6 +1,6 @@
 ---
 name: code-style
-description: General code style guidelines. Prefer verbosity and grok-ability over brevity. Favor simplicity, avoid premature optimization, and use params objects when positional args become non-obvious. Apply to any code being written or reviewed.
+description: Use when writing or reviewing any code in this codebase — TypeScript, Svelte, or otherwise. Covers verbosity over brevity, simplicity over cleverness, when to use a params object, when to extract a helper vs. inline, the no-premature-optimization rule, and the no-comments-by-default policy.
 ---
 
 # Code Style

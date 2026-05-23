@@ -1,6 +1,6 @@
 ---
 name: pnpm-workspaces
-description: pnpm monorepo conventions. Use when the project uses pnpm workspaces. Skip if the project is not a monorepo or uses npm, yarn, or another package manager.
+description: Use when adding a dependency, running scripts across packages, or importing from one workspace package into another in a pnpm monorepo. Triggers on "install", "add a package", `pnpm add`, `package.json`, cross-package imports. Skip for single-package projects or npm/yarn.
 ---
 
 # pnpm Workspaces

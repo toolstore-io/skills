@@ -1,6 +1,6 @@
 ---
 name: pino-logging
-description: Pino structured logging conventions. Use when adding or reviewing logging in the API or service layer. Skip if the project uses a different logger.
+description: Use when adding, reviewing, or removing logging in a project that uses Pino — anywhere `logger.error`, `logger.info`, `logger.warn`, `logger.debug` appears, or whenever a raw error is first caught. Covers logger-as-injected-dependency, the structured-context-object form, when to use each level, and the log-once-at-the-boundary rule. Skip for other loggers.
 ---
 
 # Pino Logging

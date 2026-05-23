@@ -1,6 +1,6 @@
 ---
 name: primitive-extraction
-description: When and how to extract UI primitive components. Use when building UI to decide whether to inline styles or extract a reusable primitive component.
+description: Use when deciding whether to inline a piece of UI markup or extract it into a reusable primitive component — badges, cards, icon buttons, avatars, empty states, loading spinners, tooltips. Triggers when you notice a visual pattern repeating or inline markup making a parent harder to read. Covers the extraction threshold, what counts as a primitive, and what does not.
 ---
 
 # Primitive Extraction
